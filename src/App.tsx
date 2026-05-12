@@ -18,9 +18,21 @@ function App() {
         nutrition guidance, and performance training.
       </p>
 
-      <button className="mt-8 bg-red-600 hover:bg-red-700 px-8 py-3 rounded-xl text-lg font-semibold transition">
-        Start Your Transformation
-      </button>
+      <div className="flex gap-4 mt-8">
+        <a
+          href="tel:5738201141"
+          className="bg-red-600 hover:bg-red-700 px-8 py-3 rounded-xl text-lg font-semibold transition"
+        >
+          Call Now
+        </a>
+
+        <a
+          href="mailto:lpullum25.student@gmail.com?subject=Pullum Performance Prep Inquiry"
+          className="bg-white text-black hover:bg-gray-200 px-8 py-3 rounded-xl text-lg font-semibold transition"
+        >
+          Email Us
+        </a>
+      </div>
     </div>
   )
 }
